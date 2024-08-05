@@ -53,7 +53,7 @@
                   "padding": {"top": 80, "bottom": 80, "left": 20},
                   "child": {
                     "type": "text",
-                    "data": "Our first SDUI widget",
+                    "data": "Our first SDUI widget - Moses",
                     "style": {
                       "fontSize": 24,
                       "fontWeight": "w800",
