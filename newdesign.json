@@ -1,1 +1,70 @@
-
+{
+    "type": "scaffold",
+    "appBar": {
+      "type": "appBar",
+      "title": {"type": "text", "data": "Appbar"},
+      "leading": {
+        "type": "iconButton",
+        "child": {"type": "icon", "iconType": "material", "icon": "menu"},
+        "onPressed": {}
+      },
+      "actions": [
+        {
+          "type": "iconButton",
+          "child": {
+            "type": "icon",
+            "iconType": "cupertino",
+            "icon": "heart_solid"
+          },
+          "onPressed": {}
+        },
+        {
+          "type": "iconButton",
+          "child": {"type": "icon", "iconType": "material", "icon": "search"},
+          "onPressed": {}
+        },
+        {
+          "type": "iconButton",
+          "child": {
+            "type": "icon",
+            "iconType": "material",
+            "icon": "more_horiz"
+          },
+          "onPressed": {}
+        }
+      ]
+    },
+    "body": {
+      "type": "column",
+      "crossAxisAlignment": "center",
+      "mainAxisAlignment": "center",
+      "children": [
+        {
+          "type": "container",
+          "padding": {"left": 30, "right": 30},
+          "child": {
+            "type": "card",
+            "color": "#ff000000",
+            "child": {
+              "type": "row",
+              "children": [
+                {
+                  "type": "container",
+                  "padding": {"top": 80, "bottom": 80, "left": 20},
+                  "child": {
+                    "type": "text",
+                    "data": "Our first SDUI widget - Moses New File",
+                    "style": {
+                      "fontSize": 24,
+                      "fontWeight": "w800",
+                      "color": "#ffC8A2C8"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
